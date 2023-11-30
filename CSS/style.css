@@ -115,3 +115,36 @@ input[type="submit"]:hover {
   background-color: #000000;
   color: #FFD3AB;
 }
+.logo {position: absolute;
+  width: 190px;
+  height: 185px;
+  left: 70px;
+  top: 23px;
+  }
+ header {
+    background-color: #ffffff; /* Couleur de fond du menu */
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Style pour le lien actif */
+  nav li.active a {
+    color: #ffffff; /* Couleur différente pour le lien actif */
+  }
+  
