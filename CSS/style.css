@@ -89,9 +89,15 @@ form {
 }
 
 label {
-  margin-bottom: 5px;
-  color: white;
-}
+        margin-bottom: 5px;
+        color: #000;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        .Asterix{color: #F00;} }
+
 
 input,
 textarea {
