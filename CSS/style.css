@@ -98,6 +98,9 @@ label {
         line-height: normal;
         .Asterix{color: #F00;} }
 
+.name {display: flex;}
+.Asterix{color: #F00;} 
+
 
 input,
 textarea {
