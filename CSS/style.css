@@ -22,10 +22,6 @@ p1{width: 312.259px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;}}
- 
- 
-a :link {color: #000;}
-a :visited {color: #000;}
 
 h3{display: flex;
   width: 50%; 
@@ -97,10 +93,15 @@ form {
   flex-direction: column;
 }
 
-label {
-  margin-bottom: 5px;
-  color: white;
-}
+label { margin-bottom: 5px;
+        color: #000;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;}
+ .name {display: flex;}
+ .Asterix{color: #F00;} 
 
 input,
 textarea {
