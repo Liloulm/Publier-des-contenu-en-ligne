@@ -1,8 +1,7 @@
 body{width: 1440px;
   height: 4268px;
   background: #FFFEFD;}
-.mobile{width: 100%;
-        height: 100%;}
+
 .et{width: 1189px;
   height: 185px;
   flex-shrink: 0;
@@ -25,7 +24,10 @@ p1{width: 312.259px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;}}
- .plafond { img { width: 100%;}} 
+.plafond {max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;} 
 .logo {position: absolute;
   height: 185px;
   left: 70px;
