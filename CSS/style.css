@@ -403,14 +403,17 @@ h4{text-align: center;}
   .et{width: 260px;
     height: 50px;
     flex-shrink: 0;
-    padding-top: 125px; 
+    padding-top: 200px; 
     h1 {font-size: 20px;}
     p1 {font-size: 15px;}}
 
-.logo {width: 64px;
-  height: 62px;
+.logo {width: 150px;
+  height: 150px;
   flex-shrink: 0;
 text-align: center ;}
+.artiste{width: 123px;
+height: 145px;}
+
 
 
   h3 {
