@@ -2,6 +2,8 @@ body{width: 1440px;
   height: 4268px;
   background: #FFFEFD;}
 
+
+
 .et{width: 1189px;
   height: 185px;
   flex-shrink: 0;
@@ -24,16 +26,16 @@ p1{width: 312.259px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;}}
-.plafond {max-width: 100%;
+ .plafond {max-width: 100%;
         height: auto;
         display: block;
-        margin: auto;} 
+        margin: auto;}
 .logo {position: absolute;
   height: 185px;
   left: 70px;
-margin-left: 5px;
-padding-top: 30px;
-  }
+  margin-left: 5px;
+  padding-top: 30px;}
+  
 
 h3{display: flex;
   width: 50%; 
@@ -160,9 +162,9 @@ input[type="submit"]:hover {
     font-weight: bold;
   }
   
-  /* Style pour le lien actif */
+  
   nav li.active a {
-    color: #ffffff; /* Couleur différente pour le lien actif */
+    color: #ffffff; 
   }
   
 
@@ -399,7 +401,7 @@ h4{text-align: center;}
 
 /* Styles pour les résolutions jusqu'à 480px */
 @media only screen and (max-width: 480px) {
-
+  
   .et{width: 260px;
     height: 50px;
     flex-shrink: 0;
@@ -411,10 +413,9 @@ h4{text-align: center;}
   height: 150px;
   flex-shrink: 0;
 text-align: center ;}
-.artiste{width: 123px;
-height: 145px;}
-
-
+.mob{position: relative;}
+.artiste {width: 123px;
+  height: 145px;}
 
   h3 {
     font-size: 1.2em;
