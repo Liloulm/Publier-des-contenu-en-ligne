@@ -15,7 +15,8 @@ h1{font-family: Montserrat;
   font-size: 64px;
   font-style: normal;
   font-weight: lighter;
-  line-height: normal;}
+  line-height: normal;
+  padding-bottom: 0,2%;}
 p1{width: 312.259px;
   height: 57.736px;
   flex-shrink: 0;
@@ -397,19 +398,18 @@ h4{text-align: center;}
 /* Styles pour les résolutions jusqu'à 480px */
 @media only screen and (max-width: 480px) {
 
-  .et{width: 234px;
-    height: 58px;
-    flex-shrink: 0; 
-    h1 {font-size: 24px;}
-
-  p1 {
-    font-size: 19px;
-    }}
+  .et{width: 260px;
+    height: 50px;
+    flex-shrink: 0;
+    padding-top: 125px; 
+    h1 {font-size: 20px;}
+    p1 {font-size: 15px;}}
 
 .logo {width: 64px;
   height: 62px;
   flex-shrink: 0;
-padding-left: 46px ;}}
+text-align: center ;}
+
 
   h3 {
     font-size: 1.2em;
